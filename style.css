@@ -1,6 +1,9 @@
 *, *::after, *::before{
     box-sizing: border-box;
 }
+body{
+     overflow-x: hidden;
+}
 .hero{
     background-image: url("heroimg.webp");
     position: relative;
